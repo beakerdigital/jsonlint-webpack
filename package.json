@@ -1,6 +1,6 @@
 {
-  "author": "Zach Carter <zach@carter.name> (http://zaa.ch)",
-  "name": "jsonlint",
+  "author": "liucong",
+  "name": "jsonlint-webpack",
   "description": "Validate JSON",
   "keywords": [
     "json",
@@ -8,7 +8,7 @@
     "lint",
     "jsonlint"
   ],
-  "version": "1.6.3",
+  "version": "1.6.4",
   "preferGlobal": true,
   "repository": {
     "type": "git",
@@ -26,7 +26,9 @@
   },
   "dependencies": {
     "nomnom": "^1.5.x",
-    "JSV": "^4.0.x"
+    "JSV": "^4.0.x",
+    "file": "^0.2.2",
+    "system": "^1.0.4"
   },
   "devDependencies": {
     "test": "*",
